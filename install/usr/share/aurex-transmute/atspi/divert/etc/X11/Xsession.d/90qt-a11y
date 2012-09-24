@@ -1,0 +1,6 @@
+# Read DESKTOP_SESSION environment variable to check its value. In case of "Aurex", do nothing, in other case, source the original script
+
+
+[ "$DESKTOP_SESSION" = "aurex" ] || . /etc/X11/Xsession.d/90qt-a11y.aurex-divert    
+
+

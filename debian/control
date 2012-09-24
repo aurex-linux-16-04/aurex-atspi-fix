@@ -1,0 +1,15 @@
+Source: aurex-atspi-fix 
+Section: admin
+Priority: optional
+Maintainer: Sandra Villanueva Gavino <savilga@gmail.com>
+Uploaders: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Build-Depends: debhelper (>= 7.0)
+Standards-Version: 3.9.3
+
+Package: aurex-atspi-fix
+Architecture: all
+Depends: ${misc:Depends}, aurex-transmute, at-spi2-core 
+Description: disable some components of GNOME Accessibility
+ This package disables execution of 90qt-a11y only in Aurex 12.04 
+ environments to prevent a strange hung up when a network user 
+ initiates session in Aurex 12.04 (xfce)
