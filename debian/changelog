@@ -1,3 +1,10 @@
+aurex-atspi-fix (0.4) xenial; urgency=medium
+
+  * Improved detection of diverted file for compatibility
+    with soulmate
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 12 Sep 2017 00:33:07 +0200
+
 aurex-atspi-fix (0.3) xenial; urgency=medium
 
   * Rebuild for aurex 16.04 xenial
